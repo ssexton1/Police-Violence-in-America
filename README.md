@@ -1,6 +1,6 @@
 # Project 2
 
-This repository contains code for an interactive web app, created for the _Client-Side Web Development_ course at the UW iSchool.
+This is a project I made with my group for Client Side Web Development 
 
 For our project we made a website for analyzing data about police shootings in America.
 
