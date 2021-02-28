@@ -1,0 +1,257 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: #f2f4f5;
+  font-size: 1rem;
+  font-weight: normal;
+  margin-bottom: 150px;
+}
+
+header {
+  width: 100%;
+  padding-bottom: 0px;
+}
+
+.pageTitle {
+  padding: 30px;
+  padding-top: 70px;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+label {
+  font-weight: 700;
+}
+
+img {
+  width: 100%;
+}
+  
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*
+Nav Section
+*/
+nav {
+  background-color: black;
+  overflow: hidden;
+}
+
+nav a {
+  font-size: 30px;
+  float: left;
+  padding: 20px 24px;
+  color: white;
+}
+
+nav a:hover {
+  background-color: gray;
+  color: white;
+}
+/*
+End of Nav section
+*/
+
+/*
+Footer Section
+*/
+footer, h1, .para {
+  background-color: #d3d3d3;
+}
+
+footer {
+  padding-top: 15px;
+  padding-bottom: 5px;
+  height: 130px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.para, footer, h1, .para-about {
+  text-align: center;
+}
+/*
+End of footer section
+*/
+
+/*
+Table section
+*/
+table {
+  border-collapse: collapse;
+}
+
+th, td {
+  padding-left: 2px;
+  padding-right: 5px;
+  padding-top: 10px;
+}
+
+table, th {
+  border: 1px solid black;
+}
+
+.tableNames {
+  color: rgb(0, 140, 255);
+  text-decoration: underline;
+}
+
+.tableNames:hover {
+  color: blue;
+}
+
+/*
+End of Table Section
+*/
+
+/* About Paragraph */
+.para-about {
+  color: #696969;
+}
+
+/*Pictures section*/
+.small-pic-hidden {
+  display: none;
+}
+
+.row2 {
+  margin: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+/* End of pictures section */
+
+/*
+General form section
+*/
+form {
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+form label {
+  padding-bottom: 25px;
+}
+/*
+End of General form section
+*/
+
+/*
+Form Page section
+*/
+.reportForm {
+  width: 50%;
+}
+
+.formButton {
+  align-self: left;
+  width: fit-content;
+}
+
+#blm-form {
+  width: 50%;
+  height: auto;
+}
+/*
+End of Form Page seciton
+*/
+
+/*
+Person Profile card section
+*/
+.card {
+  transform: 0.3s;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 7px;
+}
+/*
+End of Person Profile card section
+*/
+
+/*
+Map Section
+*/
+.map {
+  align-self: center;
+  width: 100%;
+}
+
+.filter {
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+label, section {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#raceText {
+  font-size: large;
+  font-weight: 500;
+  align-self: center;
+  padding-left: 195px;
+}
+
+#raceFilter {
+  margin-left: 5px;
+}
+/*
+End of Map Section
+*/
+
+@media (min-width: 600px) {
+  .pageTitle {
+    font-size: 2.1rem;
+  }
+
+  a {
+    margin: 5px;
+    padding-top: 5px;
+  }
+
+  .card {
+    width: fit-content;
+  }
+}
+
+@media (min-width: 768px) {
+  .pageTitle {
+    font-size: 2.2rem;
+    padding-top: 30px;
+    padding-left: 100px;
+  }
+}
+
+@media (min-width: 992px) {
+  .pageTitle {
+    font-size: 2.4rem;
+    padding-left: 30px;
+  }
+
+  .small-pic-hidden {
+    display: block;
+  }
+}
